@@ -4,6 +4,7 @@ h1, h2, h3, h4, h5, h6 {
 	clear: both;
 	line-height: 110%;
 	margin: ($line-height * 2 * 1em) 0 ($line-height / 2 * 1em) 0;
+	font-weight: normal;
 	&:first-child {
 		margin-top: 0;
 	}

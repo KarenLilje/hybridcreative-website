@@ -18,7 +18,7 @@ $border-radius: 0.02em;
 
 // Fonts
 $font-size: 1.2em;
-$font-main: "Lato", sans-serif;
+$font-main: "Crimson", sans-serif;
 $font-secondary: "Lato", sans-serif;
 $side-nav-font-size: 1em;
 $dropdown-nav-font-size: 0.8em;
@@ -29,6 +29,7 @@ $caption-font-size: 0.8em;
 // Use @import to use fonts hosted elsewhere, or
 // for @font-face snippets, try https://github.com/arthurattwell/font-faces
 @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 // Colour palette
 $background-color-dark: #2d7375;

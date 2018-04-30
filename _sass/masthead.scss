@@ -4,7 +4,7 @@
 	background-color: $background-color-mid;
 	color: $text-color-dark;
 	display: table;
-	height: 2em;
+	height: 4em;
 	overflow-y: hidden; // Prevents horizontal scrolling
 	position: relative;
 	width: 100%;
@@ -26,6 +26,9 @@
 		padding: 0.5em;
 		.name {
 			font-weight: bold;
+			font-family: $font-secondary;
+			letter-spacing: 0.05em;
+			text-transform: uppercase;
 			display: table-row;
 			padding: 0.5em;
 			vertical-align: middle;
@@ -35,6 +38,7 @@
 		}
 		.tagline {
 			display: table-row;
+			font-style: italic;
 			padding: 0 0 0 1em;
 			vertical-align: middle;
 			font-size: 0.7em;
