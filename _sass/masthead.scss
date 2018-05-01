@@ -1,10 +1,10 @@
 // Masthead
 
 .masthead {
-	background-color: $background-color-mid;
+	background-color: #000000;
 	color: $text-color-dark;
 	display: table;
-	height: 4em;
+	height: 8em;
 	overflow-y: hidden; // Prevents horizontal scrolling
 	position: relative;
 	width: 100%;
@@ -12,37 +12,40 @@
 	.logo {
 		// Template styles assume a square logo
 		display: table-cell;
-		padding: 0.5em;
-		width: 2em;
+		padding: 0.1em;
+		width: 1.5em;
 		vertical-align: middle;
 		line-height: 0;
 		img {
-			max-height: 2em;
+			max-height: 7em;
 		}
 	}
 	.identity {
 		display: table;
 		vertical-align: middle;
-		padding: 0.5em;
+		padding: 2em;
 		.name {
 			font-weight: bold;
 			font-family: $font-secondary;
-			letter-spacing: 0.05em;
+			font-size: 1.3em;
+			letter-spacing: 0.2em;
 			text-transform: uppercase;
 			display: table-row;
-			padding: 0.5em;
+			padding: 5em;
 			vertical-align: middle;
 			a {
-				color: inherit;
+				color: #ffffff;
 			}
 		}
 		.tagline {
 			display: table-row;
 			font-style: italic;
 			padding: 0 0 0 1em;
+			letter-spacing: 0.05em;
 			vertical-align: middle;
-			font-size: 0.7em;
+			font-size: 1em;
 			font-family: $font-main;
+			color: #ffffff;
 		}
 	}
 }

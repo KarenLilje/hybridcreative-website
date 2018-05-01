@@ -32,15 +32,15 @@ $caption-font-size: 0.8em;
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
 
 // Colour palette
-$background-color-dark: #2d7375;
-$background-color-mid: #85c6c2;
+$background-color-dark: #000000;
+$background-color-mid: #bcbec0;
 $background-color-light: #ffffff;
-$text-color-dark: #222222;
-$text-color-mid: #e1e1e1;
+$text-color-dark: #000000;
+$text-color-mid: #bcbec0;
 $text-color-light: #ffffff;
-$side-nav-color: $background-color-light;
+$side-nav-color: #ffffff;
 $dropdown-nav-color: $background-color-mid;
-$footer-background-color: $background-color-mid;
+$footer-background-color: $background-color-light;
 
 // Media query breakpoints
 $break-point-l: $content-width + $side-nav-width + 10em;
