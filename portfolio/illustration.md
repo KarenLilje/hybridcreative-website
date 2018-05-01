@@ -2,7 +2,7 @@
 title: "illustration"
 ---
 
-# Editorial Illustration
+# Illustration
 
 xjdfhodshf;ov
 
